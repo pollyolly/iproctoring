@@ -1,7 +1,6 @@
 <?php
 require_once(dirname(__FILE__) . '/../../../config.php');
 require_once($CFG->dirroot . '/mod/quiz/locallib.php'); //Get quiz name
-//require_once(dirname(__FILE__) . '/../getID3/getid3/getid3.php');
 defined('MOODLE_INTERNAL') || die;
 
 require_login();
@@ -164,24 +163,6 @@ function convert_bytes($bytes, $to, $decimal_places) {
        } else {
           return false;
        }
-}*/
-/*function getDuration($fileDir){
-     $getID3 = new getID3;
-     $file = $getID3->analyze($fileDir);
-     $getID3->CopyTagsToComments($file);
-     $duration = $file['playtime_seconds'];
-     return formatDuration($duration);
-}
-function formatDuration($duration){
-     if(strlen($duration) == 4){
-          return "00:0" . $duration;
-     }
-     else if(strlen($duration) == 5){
-          return "00:" . $duration;
-     }
-     else if(strlen($duration) == 7){
-          return "0" . $duration;
-     }
 }*/
 
 echo $OUTPUT->header();
