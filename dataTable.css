@@ -1,0 +1,138 @@
+/*
+ * Table
+ * */
+ul.pagination {
+     list-style:none;
+}
+ul.pagination li {
+     display:inline-block;
+     padding:8px;
+}
+ul.pagination li.active a{
+     color:#004522;
+     padding:8px;
+}
+div.dt-buttons {
+     margin-left:10px;
+}
+button.ipDelete, button.ipView {
+     font-size:10px;
+}
+#iProctoringTable th, #iProctoringTable td {
+     min-width:100px;
+}
+table.dataTable tr.odd {
+     background-color: #eee;
+}
+table.dataTable thead .sorting:before,  
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before{
+     content:'';
+}
+table.dataTable thead .sorting:after,  
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after{
+     content:'';
+}
+table.dataTable tr.odd td.sorting_1 {
+     background-color:#ddd;
+}
+table.dataTable tr.even td.sorting_1{
+     background-color:#eee;
+}
+/*
+ * Review Modal
+ * */
+div.ipModal {
+     display:none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0,0.4);
+}
+div.ipModalBody {
+     background-color: #fefefe;
+     margin: 7% auto; 
+     padding: 10px;
+     border: 1px solid #888;
+     width: 51%; 
+}
+/* The Close Button */
+span.ipClose {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+span.ipClose:hover,
+span.ipClose:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+}
+#my-player {
+     width:100%;
+     margin-top:20px;
+}
+.ipNote, .ipAddNote{
+    display:block;
+}
+span.ipNoteAction {
+    margin-top:10px;
+    display:inline-block;
+}
+textarea.ipNote {
+    margin-top:10px;
+    width: 98%;
+}
+/*
+ * Search Modal
+ * */
+div.ipSearchModal {
+     display:none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top:0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0,0.4);/
+}
+div.ipSearchModalBody {
+     background-color: #fefefe;
+     margin: 7% auto; 
+     padding: 10px;
+     border: 1px solid #888;
+     width: 51%; 
+}
+/* The Close Button */
+span.ipSearchClose {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+span.ipSearchClose:hover,
+span.ipSearchClose:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+}
+span.ipSearchLabel {
+     margin-top:10px;
+     margin-bottom:10px;
+     display:inline-block;
+}
+div.ipSearchInputs input {
+     margin-right:5px;
+}
+div.ipSearchInputs input:nth-last-of-type(1) {
+     display:none;
+}
