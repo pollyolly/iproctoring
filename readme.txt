@@ -4,7 +4,8 @@ This plugin manually records the video of a user while doing Quizzes.
 https://moodle.org/mod/forum/discuss.php?d=201539
 
 === Instruction ===
-You may need to create the upload folder in the app folder. i.e uvle/iproctoring_upload
+Place this plugin inside the moodle_web_folder/local/.
+You may need to create the upload folder (permission 755) in the app folder. i.e moodle_web_folder/iproctoring_upload/.
 
 === How to use ? ===
 In the uvle/mod/quiz/attempt.php paste the code below in line 122.
