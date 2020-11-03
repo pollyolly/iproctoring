@@ -8,7 +8,7 @@ Place this plugin inside the moodle_web_folder/local/.
 You may need to create the upload folder (permission 755) in the app folder. i.e moodle_web_folder/iproctoring_upload/.
 
 === How to use ? ===
-In the uvle/mod/quiz/attempt.php paste the code below in line 122.
+In the moodle_web_folder/mod/quiz/attempt.php paste the code below in line 122.
 
 $renderer = $PAGE->get_renderer('local_iproctoring');
 $renderer->add_iproctoring_js_modules();
